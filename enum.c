@@ -1,14 +1,21 @@
 #include <stdio.h>
 
+
+enum direction {
+    North,
+    South,
+    East,
+    West
+};
+
 int main() {
-    
-    enum direction {
-	North, South, East, West
-    };
 
-    enum direction currentDirection;
+    // int currentDirection;
 
-    int currentDirection;
+    enum direction currentDirection = aSouth;
 
+    //int currentDirection;
+
+    //currentDirection = 3;
     printf("%d\n",currentDirection);
 }
